@@ -72,8 +72,6 @@ docker compose run --rm web rails new . -d postgresql -j esbuild --css=bootstrap
 default: &default
 adapter: postgresql
   encoding: unicode
-  # For details on connection pooling, see Rails configuration guide
-  # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   host: db
   username: postgres

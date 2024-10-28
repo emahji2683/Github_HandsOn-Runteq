@@ -5,5 +5,4 @@
 ./make_Proc.sh
 ./start02.sh
 
-gnome-terminal -- bash -c "./start03.sh; exec bash"
 

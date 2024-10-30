@@ -1,8 +1,24 @@
-## 以下のファイルの実行
-- all_start.sh
-- start03.sh
+# README
 
-## エラー事例
-ポート番号が占有されている
-【解決策】
-docker-compose.yml中のポート番号を変更する。
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
